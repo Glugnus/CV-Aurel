@@ -305,9 +305,9 @@
       </main>
       <footer>
         <h2 class="title-small">POUR VOUS RECONTACTER</h2>
-        <form name="contact" netlify>
+        <form name="contact" method="POST" data-netlify="true">
           <i class="fa-regular fa-envelope-open prefix"></i>
-          <input type="email" name="email" placeholder="Votre email" />
+          <input type="email" name="email" placeholder="Votre email" required />
           <button type="submit">
             <i class="fa-solid fa-paper-plane postfix"></i>
           </button>
